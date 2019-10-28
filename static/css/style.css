@@ -1,0 +1,50 @@
+body {
+	margin: 0px;
+}
+
+.ref-light {
+	float: left;
+	border-radius: 100%;
+	margin: 7px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-width: 50px;
+	min-height: 50px;
+	max-width: 50px;
+	max-height: 50px;
+	background: black;
+}
+
+.light-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.light-popup {
+	height: 110px;
+	width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(14, 13, 13, 0.9);
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+.lift-result {
+	margin: 0;
+	font-size: 30;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.good-lift {
+	color: green;
+}
+
+.no-lift {
+	color: #e53935;
+}

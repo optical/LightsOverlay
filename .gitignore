@@ -1,0 +1,5 @@
+node_modules/
+LightAppMods/JaredsMods/bin/
+LightAppMods/JaredsMods/obj/
+LightAppMods/.vs/
+dist/

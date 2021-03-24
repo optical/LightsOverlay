@@ -19,6 +19,15 @@ namespace JaredsMods {
             }
         }
 
+        public static void PostLiftTimerStartEvent() {
+            try {
+                _httpClient.PostAsync("/lift-timer-started", null);
+            }
+            catch {
+
+            }
+        }
+
         private static string GetLightFromRef(Referee referee) {
             if (referee.IsFailureBlue()) {
                 return "BLUE";
